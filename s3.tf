@@ -1,13 +1,3 @@
-
-resource "aws_s3_bucket" "state" {
-  bucket = "my-supercool-bucket-state"
-  provider   = "aws"
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
-
 resource "aws_s3_bucket" "oregon" {
   bucket = "my-supercool-bucket-oregon"
   provider   = "aws.oregon"
