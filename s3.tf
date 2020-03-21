@@ -20,7 +20,7 @@ resource "aws_s3_bucket" "ohio" {
   provider   = "aws.ohio"
   tags = {
     Name        = "My bucket"
-    Environment = "Dev"
+    Environment = "prod"
   }
 }
 
@@ -29,6 +29,6 @@ resource "aws_s3_bucket" "virginia" {
   provider   = "aws.virginia"
   tags = {
     Name        = "My bucket"
-    Environment = "Dev"
+    Environment = "stage"
   }
 }
