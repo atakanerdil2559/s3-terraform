@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "oregon" {
-  bucket = "my-supercool-bucket-oregon"
+  bucket = "my-erdil-bucket-oregon"
   provider   = "aws.oregon"
   tags = {
     Name        = "My bucket"
@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "oregon" {
   }
 }
  resource "aws_s3_bucket" "california" {
-  bucket = "my-supercool-bucket-california"
+  bucket = "my-erdil-bucket-california"
   provider   = "aws.california"
   tags = {
     Name        = "My bucket"
@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "oregon" {
 }
 
 resource "aws_s3_bucket" "ohio" {
-  bucket = "my-supercool-bucket-ohio"
+  bucket = "my-erdil-bucket-ohio"
   provider   = "aws.ohio"
   tags = {
     Name        = "My bucket"
@@ -25,7 +25,7 @@ resource "aws_s3_bucket" "ohio" {
 }
 
 resource "aws_s3_bucket" "virginia" {
-  bucket = "my-supercool-bucket-virginia"
+  bucket = "my-erdil-bucket-virginia"
   provider   = "aws.virginia"
   tags = {
     Name        = "My bucket"
